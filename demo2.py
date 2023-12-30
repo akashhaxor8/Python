@@ -13,7 +13,6 @@ elif(c=="div"):
 else:
     print("Invalid Input")
 
-'''
 
 a=int(input("Enter the score in %:"))
 if(a>=70):
@@ -23,3 +22,16 @@ if(a>=70):
     print(b,"you are eligible")
 else:
     print("you are not eligible:")
+
+'''
+sal=int(input("Enter your salary:"))
+age=int(input("Age:"))
+if(sal>=20000 or age<=25):
+    loan=int(input("Enter loan amount?"))
+    if(loan>50000):
+        print("Maximum loan amount is 50000")
+    else:
+        print("You are eligible for loan")
+        
+else:
+    print("You are not eligible for loan")        
